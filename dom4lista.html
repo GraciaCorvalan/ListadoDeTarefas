@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="dom4lista.css" />
+  </head>
+  <body>
+    <h1>Lista de Tarefas</h1>
+    <p>
+      Clique na tarefa para riscar e desriscar.
+      <!-- Dar un click sobre la tarea para tacharla y destacharla. -->
+    </p>
+    <p>
+      Se você concluiu a tarefa ou deseja removê-la da lista, você pode fazer CLICAR DUAS VEZES e pronto!
+      <!-- Si completaste la tarea o queres sacarla de la lista, podes darle DOBLE CLICK y listo!  -->
+    </p>
+    <div id="listadoCompleto">
+    <div id="listaInput">
+      <input type="text" id="taskInput" placeholder="Insira uma nova tarefa" />
+      <button id="addTaskButton">Agregar Tarefa</button>
+    </div>
+    <ul id="taskList">
+      <!-- Aquí se agregarán las tareas -->
+    </ul>
+  </div>
+    <script src="dom4lista.js"></script>
+  </body>
+</html>
